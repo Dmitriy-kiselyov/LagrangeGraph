@@ -1,0 +1,8 @@
+.parent_easter {
+    -fx-background-image: url("../img/easter_background.jpg");
+    -fx-background-repeat: no-repeat;
+}
+
+.image-view {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}

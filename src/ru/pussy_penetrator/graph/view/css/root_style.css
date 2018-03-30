@@ -1,0 +1,68 @@
+.parent {
+    -fx-background-image: url("../img/background.jpg");
+    -fx-background-repeat: no-repeat;
+}
+
+.parent_easter {
+    -fx-background-image: url("../img/easter_background.jpg");
+    -fx-background-repeat: no-repeat;
+}
+
+.canvas_easter {
+    -fx-background-image: url("../img/horse.jpg");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.dialog-pane {
+    -fx-background-color: black;
+}
+
+.tooltip {
+    -fx-background-radius: 0 0 0 0;
+    -fx-background-color: whitesmoke;
+    -fx-text-fill: rgb(40, 40, 40);
+    -fx-cursor: text;
+    -fx-padding: 5 10 5 10;
+    -fx-font-size: 15;
+}
+
+.text-field {
+    -fx-focus-color: rosybrown;
+    -fx-faint-focus-color: transparent;
+}
+
+.slider {
+    -fx-focus-color: rosybrown;
+    -fx-faint-focus-color: transparent;
+}
+
+.button {
+    -fx-focus-color: rosybrown;
+    -fx-faint-focus-color: transparent;
+}
+
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-style: solid;
+    -fx-border-color: gray;
+    -fx-border-radius: 3px;
+}
+
+.combo-box:hover {
+    -fx-background-color: mistyrose;
+}
+
+.combo-box .list-view .list-cell {
+    -fx-background-color: whitesmoke;
+}
+
+.combo-box .list-view .list-cell:hover {
+    -fx-background-color: mistyrose;
+    -fx-text-fill: black;
+}
+
+.combo-box .list-view .list-cell:selected {
+    -fx-background-color: rosybrown;
+}
